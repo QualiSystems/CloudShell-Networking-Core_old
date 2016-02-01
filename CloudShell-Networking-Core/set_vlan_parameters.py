@@ -1,7 +1,8 @@
 import enum
+from access_mode import AccessMode
 
 
-class SetVlanProperties(object):
+class SetVlanParameters(object):
     def __init__(self):
         self.type = ''
         self.vlanIds = []
